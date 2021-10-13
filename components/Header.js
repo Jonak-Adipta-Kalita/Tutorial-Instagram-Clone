@@ -14,7 +14,7 @@ const Header = () => {
 	const router = useRouter();
 	const avatar = "https://avatars.githubusercontent.com/u/70377522?v=4";
 	return (
-		<div className="shadow-md border-b bg-white sticky top-0 z-50">
+		<header className="shadow-md border-b bg-white sticky top-0 z-50">
 			<div className="flex justify-between bg-white max-w-6xl mx-5 lg:mx-auto">
 				<div className="relative hidden lg:inline-grid w-24 cursor-pointer">
 					<Image
@@ -68,7 +68,7 @@ const Header = () => {
 					/>
 				</div>
 			</div>
-		</div>
+		</header>
 	);
 };
 
