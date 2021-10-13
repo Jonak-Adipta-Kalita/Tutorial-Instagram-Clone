@@ -1,4 +1,6 @@
-import Head from 'next/head'
+import Head from "next/head";
+import Header from "../components/Header";
+import Feed from "../components/Feed";
 
 const Home = () => {
 	return (
@@ -10,6 +12,8 @@ const Home = () => {
 					href="/favicon.ico"
 				/>
 			</Head>
+			<Header />
+			<Feed />
 		</div>
 	);
 };
