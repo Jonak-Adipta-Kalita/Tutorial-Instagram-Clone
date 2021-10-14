@@ -3,220 +3,24 @@ import Post from "./Post";
 const posts = [
 	{
 		id: 123,
-		username: "sssangha",
+		username: "xxJonakAdiptaxx",
 		userImg: "https://avatars.githubusercontent.com/u/70377522?v=4",
 		img: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		caption: "fuck"
+		caption: "LIKE AND SUBSCRIBE!! AND JOIN THE LIGHTNING FAMILY!!"
 	},
 	{
 		id: 123,
-		username: "sssangha",
+		username: "xxJonakAdiptaxx",
 		userImg: "https://avatars.githubusercontent.com/u/70377522?v=4",
 		img: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		caption: "fuck"
+		caption: "LIKE AND SUBSCRIBE!! AND JOIN THE LIGHTNING FAMILY!!"
 	},
 	{
 		id: 123,
-		username: "sssangha",
+		username: "xxJonakAdiptaxx",
 		userImg: "https://avatars.githubusercontent.com/u/70377522?v=4",
 		img: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		caption: "fuck"
-	},
-	{
-		id: 123,
-		username: "sssangha",
-		userImg: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		img: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		caption: "fuck"
-	},
-	{
-		id: 123,
-		username: "sssangha",
-		userImg: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		img: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		caption: "fuck"
-	},
-	{
-		id: 123,
-		username: "sssangha",
-		userImg: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		img: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		caption: "fuck"
-	},
-	{
-		id: 123,
-		username: "sssangha",
-		userImg: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		img: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		caption: "fuck"
-	},
-	{
-		id: 123,
-		username: "sssangha",
-		userImg: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		img: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		caption: "fuck"
-	},
-	{
-		id: 123,
-		username: "sssangha",
-		userImg: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		img: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		caption: "fuck"
-	},
-	{
-		id: 123,
-		username: "sssangha",
-		userImg: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		img: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		caption: "fuck"
-	},
-	{
-		id: 123,
-		username: "sssangha",
-		userImg: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		img: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		caption: "fuck"
-	},
-	{
-		id: 123,
-		username: "sssangha",
-		userImg: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		img: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		caption: "fuck"
-	},
-	{
-		id: 123,
-		username: "sssangha",
-		userImg: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		img: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		caption: "fuck"
-	},
-	{
-		id: 123,
-		username: "sssangha",
-		userImg: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		img: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		caption: "fuck"
-	},
-	{
-		id: 123,
-		username: "sssangha",
-		userImg: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		img: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		caption: "fuck"
-	},
-	{
-		id: 123,
-		username: "sssangha",
-		userImg: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		img: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		caption: "fuck"
-	},
-	{
-		id: 123,
-		username: "sssangha",
-		userImg: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		img: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		caption: "fuck"
-	},
-	{
-		id: 123,
-		username: "sssangha",
-		userImg: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		img: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		caption: "fuck"
-	},
-	{
-		id: 123,
-		username: "sssangha",
-		userImg: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		img: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		caption: "fuck"
-	},
-	{
-		id: 123,
-		username: "sssangha",
-		userImg: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		img: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		caption: "fuck"
-	},
-	{
-		id: 123,
-		username: "sssangha",
-		userImg: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		img: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		caption: "fuck"
-	},
-	{
-		id: 123,
-		username: "sssangha",
-		userImg: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		img: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		caption: "fuck"
-	},
-	{
-		id: 123,
-		username: "sssangha",
-		userImg: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		img: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		caption: "fuck"
-	},
-	{
-		id: 123,
-		username: "sssangha",
-		userImg: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		img: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		caption: "fuck"
-	},
-	{
-		id: 123,
-		username: "sssangha",
-		userImg: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		img: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		caption: "fuck"
-	},
-	{
-		id: 123,
-		username: "sssangha",
-		userImg: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		img: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		caption: "fuck"
-	},
-	{
-		id: 123,
-		username: "sssangha",
-		userImg: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		img: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		caption: "fuck"
-	},
-	{
-		id: 123,
-		username: "sssangha",
-		userImg: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		img: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		caption: "fuck"
-	},
-	{
-		id: 123,
-		username: "sssangha",
-		userImg: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		img: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		caption: "fuck"
-	},
-	{
-		id: 123,
-		username: "sssangha",
-		userImg: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		img: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		caption: "fuck"
-	},
-	{
-		id: 123,
-		username: "sssangha",
-		userImg: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		img: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		caption: "fuck"
+		caption: "LIKE AND SUBSCRIBE!! AND JOIN THE LIGHTNING FAMILY!!"
 	},
 ];
 
