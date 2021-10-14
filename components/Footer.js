@@ -1,6 +1,6 @@
 const Footer = () => {
 	return (
-		<footer className=""></footer>
+		<footer className="sticky bottom-0 z-50 md:hidden"></footer>
 	);
 };
 
