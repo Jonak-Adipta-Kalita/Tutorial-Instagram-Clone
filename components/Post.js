@@ -26,15 +26,15 @@ const Post = ({ username, userImg, img, caption }) => {
 				<DotsHorizontalIcon className="h-5 cursor-pointer" />
 			</div>
 			<img
-				className="object-cover w-full"
+				className="object-cover w-full border-t-2"
 				src={img}
 				alt="post-pic"
 			/>
-			<div className="flex justify-between px-4 pt-4">
+			<div className="flex justify-between px-4 pt-4 border-t-2">
 				<div className="flex space-x-4">
 					<HeartIcon className="btn" />
 					<ChatIcon className="btn" />
-					<PaperAirplaneIcon className="btn" />
+					<PaperAirplaneIcon className="btn rotate-45 h-6 -mt-[30px] hover:scale-160" />
 				</div>
 				<BookmarkIcon className="btn" />
 			</div>
