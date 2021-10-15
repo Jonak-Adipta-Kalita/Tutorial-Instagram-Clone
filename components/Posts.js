@@ -2,21 +2,21 @@ import Post from "./Post";
 
 const posts = [
 	{
-		id: 123,
+		id: 0,
 		username: "xxJonakAdiptaxx",
 		userImg: "https://avatars.githubusercontent.com/u/70377522?v=4",
 		img: "https://avatars.githubusercontent.com/u/70377522?v=4",
 		caption: "LIKE AND SUBSCRIBE!! AND JOIN THE LIGHTNING FAMILY!!"
 	},
 	{
-		id: 123,
+		id: 2,
 		username: "xxJonakAdiptaxx",
 		userImg: "https://avatars.githubusercontent.com/u/70377522?v=4",
 		img: "https://avatars.githubusercontent.com/u/70377522?v=4",
 		caption: "LIKE AND SUBSCRIBE!! AND JOIN THE LIGHTNING FAMILY!!"
 	},
 	{
-		id: 123,
+		id: 3,
 		username: "xxJonakAdiptaxx",
 		userImg: "https://avatars.githubusercontent.com/u/70377522?v=4",
 		img: "https://avatars.githubusercontent.com/u/70377522?v=4",
