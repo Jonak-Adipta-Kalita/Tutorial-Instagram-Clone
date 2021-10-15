@@ -3,19 +3,19 @@
 @tailwind utilities;
 
 @layer components {
-	.navBtn {
-		@apply hidden md:inline-flex h-6 cursor-pointer hover:scale-125 transition-all duration-150 ease-out;
-	}
-	
-	.btn {
-		@apply h-7 hover:scale-125 cursor-pointer transition-all duration-150 ease-out;
-	}
-	
-	.mobileHeaderBtn {
-		@apply h-7 md:hidden hover:scale-125 cursor-pointer transition-all duration-150 ease-out;
-	}
-	
-	.footerBtn {
-		@apply h-[40px] sm:h-[42px] md:hidden hover:scale-125 cursor-pointer transition-all duration-150 ease-out;
-	}
+    .navBtn {
+        @apply hidden md:inline-flex h-6 cursor-pointer hover:scale-125 transition-all duration-150 ease-out;
+    }
+
+    .btn {
+        @apply h-7 hover:scale-125 cursor-pointer transition-all duration-150 ease-out;
+    }
+
+    .mobileHeaderBtn {
+        @apply h-7 md:hidden hover:scale-125 cursor-pointer transition-all duration-150 ease-out;
+    }
+
+    .footerBtn {
+        @apply h-[40px] sm:h-[42px] md:hidden hover:scale-125 cursor-pointer transition-all duration-150 ease-out;
+    }
 }

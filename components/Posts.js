@@ -1,43 +1,37 @@
+import { useState, useEffect } from "react";
 import Post from "./Post";
-
-const posts = [
-	{
-		id: 0,
-		username: "xxJonakAdiptaxx",
-		profileImg: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		img: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		caption: "LIKE AND SUBSCRIBE!! AND JOIN THE LIGHTNING FAMILY!!"
-	},
-	{
-		id: 2,
-		username: "xxJonakAdiptaxx",
-		profileImg: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		img: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		caption: "LIKE AND SUBSCRIBE!! AND JOIN THE LIGHTNING FAMILY!!"
-	},
-	{
-		id: 3,
-		username: "xxJonakAdiptaxx",
-		profileImg: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		img: "https://avatars.githubusercontent.com/u/70377522?v=4",
-		caption: "LIKE AND SUBSCRIBE!! AND JOIN THE LIGHTNING FAMILY!!"
-	},
-];
+import { onSnapshot, collection, query, orderBy } from "@firebase/firestore";
+import { db } from "../firebase";
 
 const Posts = () => {
-	return (
-		<div className="">
-			{posts.map((post) => (
-				<Post
-					key={post.id}
-					username={post.username}
-					userImg={post.profileImg}
-					img={post.img}
-					caption={post.caption}
-				/>
-			))}
-		</div>
-	);
+    const [posts, setPosts] = useState([]);
+
+    useEffect(
+        () =>
+            onSnapshot(
+                query(collection(db, "posts"), orderBy("timestamp", "desc")),
+                (snapshot) => {
+                    setPosts(snapshot.docs);
+                }
+            ),
+        [db]
+    );
+
+    console.log(posts);
+
+    return (
+        <div className="">
+            {posts.map((post) => (
+                <Post
+                    key={post.id}
+                    username={post.data().username}
+                    userImg={post.data().profileImg}
+                    img={post.data().image}
+                    caption={post.data().caption}
+                />
+            ))}
+        </div>
+    );
 };
 
 export default Posts;
