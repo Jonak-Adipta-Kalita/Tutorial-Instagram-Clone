@@ -124,7 +124,7 @@ const Modal = () => {
                                             as="h3"
                                             className="text-lg leading-6 font-medium text-gray-900"
                                         >
-                                            Upload a Photo
+											{selectedFile ? "Awesome Photo" : "Upload a Photo"}
                                         </Dialog.Title>
                                         <div className="">
                                             <input
