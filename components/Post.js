@@ -117,7 +117,9 @@ const Post = ({ id, username, userImg, img, caption }) => {
                 onClick={() => setShouldTruncate(!shouldTruncate)}
             >
 				{likes.length > 0 && (
-					<p className="font-bold mb-1">{likes.length} likes!!</p>
+					<p className="font-bold mb-1">
+						{likes.length} {likes.length === 1 ? "like!!" : "likes!!"}
+					</p>
 				)}
                 <span className="font-bold mr-1">{username} </span>
                 {caption}
