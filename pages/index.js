@@ -22,8 +22,8 @@ const Home = () => {
                     <Footer />
                 </>
             ) : (
-                <div className="md:max-w-3xl lg:max-w-6xl mx-auto px-5">
-                    {/* <h5 className="font-semibold text-lg">Sign In to Continue!!</h5> */}
+                <div className="flex justify-center md:max-w-3xl lg:max-w-6xl mx-auto px-5 mt-2">
+                    <h5 className="font-semibold text-lg">Sign In to Continue!!</h5>
                 </div>
             )}
         </div>

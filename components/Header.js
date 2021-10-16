@@ -9,7 +9,7 @@ import {
     ChatIcon,
 } from "@heroicons/react/outline";
 import { HomeIcon } from "@heroicons/react/solid";
-import { useSession, signIn } from "next-auth/react";
+import { useSession, signIn, signOut } from "next-auth/react";
 import { useRecoilState } from "recoil";
 import { modalState } from "../atoms/modalAtom";
 
@@ -18,7 +18,7 @@ const Header = () => {
     const [open, setOpen] = useRecoilState(modalState);
     const router = useRouter();
     return (
-        <header className="shadow-md border-b bg-white sticky top-0 z-50 px-5">
+        <header className="shadow-md border-b bg-white sticky top-0 z-50 px-2">
             <div className="flex justify-between bg-white max-w-6xl mx-5 lg:mx-auto">
                 <div className="relative hidden lg:inline-grid w-24 cursor-pointer">
                     <Image
@@ -77,9 +77,20 @@ const Header = () => {
                                 alt="user-avatar"
                                 className="h-10 w-10 rounded-full cursor-pointer hidden md:inline-flex"
                             />
+							<button
+								className="md:hidden text-blue-400 text-sm font-semibold"
+								onClick={signOut}
+							>
+								Sign Out
+							</button>
                         </>
                     ) : (
-                        <button onClick={signIn}>Sign In</button>
+                        <button
+							onClick={signIn}
+							className="text-blue-400 text-sm font-semibold"
+						>
+							Sign In
+						</button>
                     )}
                 </div>
             </div>
